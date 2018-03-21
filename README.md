@@ -1,6 +1,6 @@
 ### Скачать репозиторий
 ```bash
-git clone repo_name
+git clone https://github.com/webcoder-club/php-qa.git
 ```
 
 ### Установить PHP последней версии, в данном случае 7.2:
