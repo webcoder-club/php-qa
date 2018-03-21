@@ -1,4 +1,4 @@
-## OOP
+## OOP [docs](http://php.net/manual/ru/language.oop5.php)
 * Свойства
 * Константы классов
 * Автоматическая загрузка классов
@@ -22,3 +22,4 @@
 * Объекты и ссылки
 * Сериализация объектов
 
+## PHPUnit [docs](https://phpunit.readthedocs.io/en/latest)
