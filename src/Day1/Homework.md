@@ -42,3 +42,45 @@ $p = new Parser($string);
 $p->getLinks(); // returns ['https://example.com/']
 $p->getPhones(); // returns ['+7(985)808-86-90']
 ```
+
+## Tic-Tac-Toe
+Необходимо определить кто выйграл в крестики-нолики.
+null - незаполненная клетка
+```php
+$ttt = [
+    ['o','x','o'],
+    ['x','o','o'],
+    ['x','o',null],
+];
+
+$tttFull = [
+    ['o','x','o'],
+    ['x','o','o'],
+    ['x','o','x'],
+];
+$judge->check($ttt); // returns false
+$judge->check($tttFull); // returns false
+```
+
+```php
+$ttt = [
+    ['o','x','o'],
+    ['x','o','x'],
+    ['x','o','o'],
+];
+$judge->check($ttt); // returns 'o'
+```
+
+### Get second max
+Найдите второй по величине элемент в массиве, после максимального.
+
+Пример: array(3, 4, 2, 4, 5, 5) - максимальный элемент - 5, после него самый максимальный - 4.
+Вот эту четверку нам и надо найти.
+```php
+$arr = [3, 4, 2, 4, 5, 5];
+$yardstick->getSecond($arr); // returns 4
+```
+
+## Homestead. You have arrived.
+Установить Homestead:
+https://laravel.com/docs/master/homestead

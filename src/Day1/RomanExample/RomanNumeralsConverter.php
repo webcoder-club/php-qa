@@ -22,10 +22,10 @@ class RomanNumeralsConverter
     ];
 
     /**
-     * @param $number
+     * @param int $number
      * @return string
      */
-    public function convert($number): string
+    public function convert(int $number): string
     {
         $this->guardAgainstInvalidNumber($number);
         $solution = '';
