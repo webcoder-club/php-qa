@@ -17,5 +17,5 @@ composer install
 
 ### Что я сделал для того, чтобы сохранить зависимости в composer.lock?
 ```bash
-require --dev phpunit/phpunit ^6.5
+require --dev phpunit/phpunit ^7.0
 ```
