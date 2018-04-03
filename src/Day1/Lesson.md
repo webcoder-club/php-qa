@@ -1,28 +1,19 @@
-## OOP [docs](http://php.net/manual/ru/language.oop5.php)
-* Свойства
-* Константы классов
-* Автоматическая загрузка классов
-* Конструкторы и деструкторы
-* Область видимости
-* Наследование
-* Оператор разрешения области видимости (::)
-* Ключевое слово static
-* Абстрактные классы
-* Интерфейсы объектов
-* Трейты
-* Анонимные классы
-* Перегрузка
-* Итераторы объектов
-* Магические методы
-* Ключевое слово final
-* Клонирование объектов
-* Сравнение объектов
-* Контроль типа
-* Позднее статическое связывание
-* Объекты и ссылки
-* Сериализация объектов
+## PHP [docs](http://php.net)
+[OOP docs](http://php.net/manual/ru/language.oop5.php)
+
+### Редактор
+[PHPStorm](https://www.jetbrains.com/phpstorm/)
+
+[Vim](https://www.vim.org/)
+
+### Git
+[docs](https://git-scm.com/)
+
+[ProGit](https://git-scm.com/book/ru/v2)
 
 ## PHPUnit [docs](https://phpunit.readthedocs.io/en/latest)
+Whenever you are tempted to type something into a print statement or a debugger expression,
+write it as a test instead.
 
 ### TDD
 1. Вы пишите какой-то тест
@@ -34,23 +25,3 @@
 7. Вы запускаете тест и он падает!
 
 Red -> Green -> Refactor
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

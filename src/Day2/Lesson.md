@@ -1,15 +1,14 @@
-Whenever you are tempted to type something into a print statement or a debugger expression,
-write it as a test instead.
+## Framework
+[Laravel](https://laravel.com)
 
-8 базовых типов у переменной:
-integer // 1 или 123 или -124
-float   // 1.2 или -123.2
-boolean // true или false
-string  // 'строка $name' => строка $name или "строка $name" => строка Андрей
+[Lumen](https://lumen.laravel.com)
 
-array   // [1, 'str', true]
-object  // ...
+## xDebug [docs](https://xdebug.org)
 
-resource // когда открываем соединение с БД, читаем файл и тд
-null     // 
+## Nginx [docs](https://nginx.ru/ru)
 
+## Testing
+* PHPUnit
+* PHPSpec
+* Codeception
+* Mockery

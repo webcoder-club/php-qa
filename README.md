@@ -28,3 +28,10 @@ composer install
 ```bash
 require --dev phpunit/phpunit ^7.0
 ```
+
+### План
+[Урок #1](src/Day1/Lesson.md)
+
+[Урок #2](src/Day2/Lesson.md)
+
+[Урок #3](src/Day3/Lesson.md)
