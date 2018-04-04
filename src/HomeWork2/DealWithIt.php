@@ -5,6 +5,11 @@ namespace HomeWork2;
 class DealWithIt
 {
 
+    /**
+     * example@test.ru превращает в ***************
+     * @param string $string
+     * @return string
+     */
     public function replace(string $string): string
     {
         $matches = [];
