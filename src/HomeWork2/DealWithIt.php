@@ -4,6 +4,18 @@ namespace HomeWork2;
 
 class DealWithIt
 {
+
+    public function replace(string $string): string
+    {
+        $matches = [];
+        preg_match_all("([-\\w\\.]+@\\w+[-\\w]+\\.[A-z]+)", $string, $matches, PREG_SET_ORDER);
+        foreach ($matches as $match) {
+            $hide = str_repeat("*", strlen($match[0]));
+            $string = str_replace($match[0], $hide, $string);
+        }
+        return $string;
+    }
+
     /**
      * example@test.ru превращает в e******@test.ru
      * @param string $string

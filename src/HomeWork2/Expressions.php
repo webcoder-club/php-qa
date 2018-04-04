@@ -2,7 +2,7 @@
 
 namespace HomeWork2;
 
-class Regexp
+class Expressions
 {
     private $opening = [
         '(',

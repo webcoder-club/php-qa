@@ -3,6 +3,7 @@
 namespace HomeWork2\FindIt\Algorithm;
 
 use HomeWork2\FindIt\Graph;
+use HomeWork2\FindIt\Node;
 
 /**
  * https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
